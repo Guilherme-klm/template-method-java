@@ -1,22 +1,15 @@
 package sem_template_method;
 
 public class Lagarto {
-
-    public void executarRotinaDiaria() {
-        acordar();
-        comer();
-        dormir();
-    }
-
-    protected void acordar() {
+    public void acordar() {
         System.out.println("O lagarto acordou!");
     }
 
-    protected void comer() {
+    public void comer() {
         System.out.println("O lagarto foi comer!");
     }
 
-    protected void dormir() {
+    public void dormir() {
         System.out.println("O lagarto foi dormir!");
     }
 }
